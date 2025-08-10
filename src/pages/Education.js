@@ -8,45 +8,39 @@ const Education = () => {
     {
       id: 1,
       type: "degree",
-      title: "Bachelor of Computer Science",
-      institution: "University of Technology",
-      period: "2020 - 2024",
+      title: "Bachelor of Technology (Electrical and Computer Engineering)",
+      institution: "Gandhi Institute for Education and Technology, Khordha",
+      period: "2022 - 2026",
       description: "Specialized in Software Engineering with focus on web development and database management.",
-      gpa: "3.8/4.0",
+      Cgpa: "8.04/10",
       achievements: [
-        "Dean's List for 3 consecutive years",
-        "Final year project: E-commerce Platform",
-        "Member of Computer Science Society"
+       
       ],
       icon: FaGraduationCap
     },
     {
       id: 2,
-      type: "certification",
-      title: "Full Stack Web Development",
-      institution: "Coding Bootcamp",
-      period: "2023",
-      description: "Intensive 6-month program covering modern web technologies and best practices.",
+      type: "12th",
+      title: "Council of Higher Secondary Education, Odisha (XII)",
+      institution: "Dayavihar H S School, Kanas",
+      period: "2020 - 2022",
+      description: "Specialized in Science stream with focus on Physics, Chemistry, and Mathematics.",
       achievements: [
-        "React.js and Node.js certification",
-        "Database design and management",
-        "Agile development methodologies"
+       
       ],
-      icon: FaCertificate
+      icon: FaGraduationCap
     },
     {
       id: 3,
-      type: "certification",
-      title: "AWS Certified Developer",
-      institution: "Amazon Web Services",
-      period: "2023",
-      description: "Professional certification in cloud development and deployment.",
+      type: "1oth",
+      title: "Board of Secondary Education, Odisha (X)",
+      institution: "Chupuringi G P High School, Chupuringi",
+      period: "2019 - 2020",
+      description: "Completed foundational education with main focus on Mathematics, Science, History, Geography, Sanskrit, MIL, and English.",
       achievements: [
-        "Cloud architecture design",
-        "Serverless application development",
-        "DevOps practices and CI/CD"
+        
       ],
-      icon: FaCertificate
+      icon: FaGraduationCap
     }
   ];
 
@@ -72,9 +66,9 @@ const Education = () => {
   ];
 
   const skillsLearned = [
-    "Programming Languages: JavaScript, Python, Java, C++",
+    "Programming Languages: JavaScript, Java",
     "Web Technologies: HTML5, CSS3, React, Node.js, Express",
-    "Databases: MySQL, MongoDB, PostgreSQL",
+    "Databases: MySQL, MongoDB",
     "Tools & Platforms: Git, Docker, AWS, Heroku",
     "Methodologies: Agile, Scrum, Test-Driven Development",
     "Soft Skills: Team Leadership, Problem Solving, Communication"

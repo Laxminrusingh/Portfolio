@@ -7,55 +7,56 @@ const Experience = () => {
   const experienceData = [
     {
       id: 1,
-      title: "Senior Full Stack Developer",
-      company: "Tech Solutions Inc.",
-      location: "San Francisco, CA",
-      period: "2023 - Present",
-      type: "Full-time",
+      title: "Web Application Development – Summer Intern",
+      company: "IT Centre, East Coast Railway (ECoR) | (Ministry of Railways, Govt. of India) ",
+      location: "Bhubaneswar, Odisha",
+      period: "May 2025 - July 2025",
+      type: "Internship",
       description: "Leading development of enterprise web applications using modern technologies.",
       achievements: [
-        "Led a team of 5 developers in building a customer management system",
-        "Improved application performance by 40% through optimization",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Mentored junior developers and conducted code reviews"
+        "Successfully contributed to the development of a full-stack web application using React.js, Node.js, Express.js, and MongoDB.",
+        "Assisted in integrating frontend and backend modules, ensuring smooth data flow and improved user experience.",
+        "Collaborated with the IT team to debug and optimize application performance in a real-time railway environment.",
+        "Developed reusable code components, reducing future development time for the team."
       ],
-      technologies: ["React", "Node.js", "MongoDB", "AWS", "Docker"],
-      companyUrl: "https://example.com"
+      technologies: ["React", "Node.js","Express.js", "MongoDB"],
+      companyUrl: "https://eastcoastrail.indianrailways.gov.in/"
     },
     {
       id: 2,
-      title: "Full Stack Developer",
-      company: "Digital Innovations",
-      location: "New York, NY",
-      period: "2021 - 2023",
+      title: "Full Stack Web Development",
+      company: "Apna College (Delta Program)",
+      location: "Online",
+      period: "2024 - 2025",
       type: "Full-time",
-      description: "Developed and maintained multiple web applications for clients across various industries.",
+      description: "Completed a comprehensive program covering both frontend and backend technologies, including real-world projects and deployment.",
       achievements: [
-        "Built 10+ client websites with responsive design",
-        "Integrated third-party APIs and payment gateways",
-        "Reduced bug reports by 50% through improved testing",
-        "Collaborated with design team to implement UI/UX improvements"
+        "Built multiple responsive web applications using HTML, CSS, and JavaScript",
+        "Developed dynamic frontends with React.js and optimized state management.",
+        "Created RESTful APIs using Node.js and Express.js.",
+        "Implemented database operations with MongoDB and performed CRUD functionalities.",
+        "Deployed full-stack projects to live servers for public access."
       ],
-      technologies: ["JavaScript", "React", "Express", "PostgreSQL", "Heroku"],
-      companyUrl: "https://example.com"
+      technologies: ["HTML"," CSS ", "JavaScript", " React.js", " Node.js", " Express.js", " MongoDB", " Git & GitHub"],
+      companyUrl: "https://www.apnacollege.in/"
     },
-    {
-      id: 3,
-      title: "Frontend Developer Intern",
-      company: "StartupXYZ",
-      location: "Remote",
-      period: "2020 - 2021",
-      type: "Internship",
-      description: "Gained hands-on experience in frontend development and modern web technologies.",
-      achievements: [
-        "Developed responsive user interfaces using React",
-        "Worked on real-time data visualization features",
-        "Participated in agile development processes",
-        "Contributed to open-source projects"
-      ],
-      technologies: ["React", "CSS3", "JavaScript", "Git", "Figma"],
-      companyUrl: "https://example.com"
-    }
+    // {
+    //   id: 3,
+    //   title: "Frontend Developer Intern",
+    //   company: "StartupXYZ",
+    //   location: "Remote",
+    //   period: "2020 - 2021",
+    //   type: "Internship",
+    //   description: "Gained hands-on experience in frontend development and modern web technologies.",
+    //   achievements: [
+    //     "Developed responsive user interfaces using React",
+    //     "Worked on real-time data visualization features",
+    //     "Participated in agile development processes",
+    //     "Contributed to open-source projects"
+    //   ],
+    //   technologies: ["React", "CSS3", "JavaScript", "Git", "Figma"],
+    //   companyUrl: "https://example.com"
+    // }
   ];
 
   const skillsGained = [
