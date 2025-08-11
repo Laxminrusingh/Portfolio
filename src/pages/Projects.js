@@ -9,36 +9,36 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform with user authentication, product management, and payment integration.",
+      title: "ID Card Generation System for Railway Department",
+      description: "A full-stack application designed for the Railway Department to generate, manage, and verify employee ID cards with secure authentication and role-based access.",
       image: "https://via.placeholder.com/400x250/667eea/ffffff?text=E-Commerce",
       category: "fullstack",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      githubUrl: "https://github.com",
+      technologies: ["React", "Node.js", "MongoDB", "Express.js"],
+      githubUrl: "https://github.com/Laxminrusingh/ID-Card-Generation-System-for-Railway-Department",
       liveUrl: "https://example.com",
       features: [
-        "User authentication & authorization",
-        "Product catalog with search & filters",
-        "Shopping cart & checkout process",
-        "Payment integration with Stripe",
-        "Admin dashboard for product management"
+        "Secure user authentication & role-based access control",
+    "Form-based employee data entry and management",
+    "Automated ID card generation with QR code",
+    "Search and filter employee records",
+    "Admin panel for approvals and updates"
       ]
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates and team collaboration features.",
+      title: "Full-Stack Airbnb Clone",
+      description: "A full-featured web application replicating core Airbnb functionalities with secure authentication, MVC architecture, and file upload capabilities.",
       image: "https://via.placeholder.com/400x250/764ba2/ffffff?text=Task+App",
-      category: "frontend",
-      technologies: ["React", "Firebase", "Material-UI", "Redux"],
+      category: "fullstack",
+      technologies: ["Node.js", "Express", "MongoDB Atlas", "MVC Architecture", "JWT", "Multer"],
       githubUrl: "https://github.com",
       liveUrl: "https://example.com",
       features: [
-        "Real-time task updates",
-        "Team collaboration",
-        "Task categorization & priorities",
-        "Progress tracking & analytics",
-        "Mobile responsive design"
+        "JWT-based authentication and role-based authorization",
+        "MVC architecture for organized code structure",
+        "Property listing creation, editing, and deletion",
+        "File upload and image storage using Multer",
+        "Search and filter functionalities for listings"
       ]
     },
     {
@@ -52,7 +52,7 @@ const Projects = () => {
       liveUrl: "https://example.com",
       features: [
         "Current weather display",
-        "5-day forecast",
+       
         "Location-based weather",
         "Weather alerts",
         "Responsive design"
@@ -60,19 +60,19 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Blog Platform",
-      description: "A content management system for creating and managing blog posts with rich text editing.",
+      title: "Meet Tour Management System in Railways",
+      description: "A full-stack web application designed for the Railway Department to manage and book employee and passenger tours with secure authentication, booking management, and itinerary generation.",
       image: "https://via.placeholder.com/400x250/FF9800/ffffff?text=Blog+Platform",
       category: "fullstack",
       technologies: ["React", "Express", "PostgreSQL", "AWS S3"],
       githubUrl: "https://github.com",
       liveUrl: "https://example.com",
       features: [
-        "Rich text editor",
-        "Image upload & management",
-        "SEO optimization",
-        "Comment system",
-        "Admin panel"
+      "JWT-based authentication with role-based access (Officer/Admin)",
+    "Meeting scheduling and notification system",
+    "Tour itinerary creation, approval, and tracking",
+    "Leave application submission and approval workflow",
+    "Admin dashboard for managing officers, tours, and leave data"
       ]
     },
     {
@@ -82,7 +82,7 @@ const Projects = () => {
       image: "https://via.placeholder.com/400x250/2196F3/ffffff?text=Portfolio",
       category: "frontend",
       technologies: ["React", "CSS3", "Framer Motion", "React Router"],
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/Laxminrusingh/Portfolio",
       liveUrl: "https://example.com",
       features: [
         "Responsive design",
@@ -94,6 +94,23 @@ const Projects = () => {
     },
     {
       id: 6,
+      title: "Zoom Clone - Video Conferencing App",
+      description: "A real-time video conferencing application replicating core Zoom features such as video calls, screen sharing, and chat, built using WebRTC and Socket.io.",
+      image: "https://via.placeholder.com/400x250/667eea/ffffff?text=E-Commerce",
+      category: "fullstack",
+      technologies: ["React", "Node.js", "Express", "Socket.io", "WebRTC", "MongoDB"],
+      githubUrl: "https://github.com/Laxminrusingh/Laxmi-Nrusingh-Video-Calw",
+      liveUrl: "https://laxmi-nrusingh-video-call-6np2.onrender.com/",
+      features: [
+       "Real-time video and audio communication using WebRTC",
+    "Secure meeting creation with unique room IDs",
+    "Text chat during meetings",
+    "Screen sharing and presentation mode",
+    "Participant management (mute/unmute, remove)",
+      ]
+    },
+    {
+      id: 7,
       title: "API Backend Service",
       description: "A RESTful API service for managing user data with authentication and authorization.",
       image: "https://via.placeholder.com/400x250/9C27B0/ffffff?text=API+Service",

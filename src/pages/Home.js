@@ -77,7 +77,7 @@ const Home = () => {
                 <div className="profile-stats">
                   <div className="stat">
                     <span className="stat-number">Fresher</span>
-                    <span className="stat-label">Aspiring Full Stack Developer"</span>
+                    <span className="stat-label">Aspiring Full Stack Developer</span>
                   </div>
                   <div className="stat">
                     <span className="stat-number">20+</span>

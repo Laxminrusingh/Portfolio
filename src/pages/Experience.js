@@ -24,7 +24,7 @@ const Experience = () => {
     },
     {
       id: 2,
-      title: "Full Stack Web Development",
+      title: "Full Stack Web Development - Course",
       company: "Apna College (Delta Program)",
       location: "Online",
       period: "2024 - 2025",
